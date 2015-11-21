@@ -23,8 +23,7 @@ class HMM:
         self.dsize = len(self.y)
         self.y = (1 + self.y)/2
         self.p_t = config["p_trans"]
-        self.file_to_save = config["file_to_save"]
-
+        chinna
     def plot(self,data):
         n = len(data)
         x = range(n)
