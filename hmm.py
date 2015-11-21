@@ -14,6 +14,8 @@ def load_data(config):
     print "Loaded data..."
     return data_obj['price_move']
 
+
+# test comments 
 class HMM:
 
     def __init__(self,config):
